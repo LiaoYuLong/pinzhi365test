@@ -1,0 +1,144 @@
+img{
+	display: inline-block;
+}
+.registor{
+	width:965px;
+	padding:50px 0;
+	margin:0 auto;
+}
+.reg-head{
+	width:965px;
+	height:80px;
+}
+.reg-head ul{
+	margin-top:30px;
+}
+.reg-head ul li:nth-of-type(2){
+	width:20px;
+	height:20px;
+	background: url(../img/login_icons.jpg) no-repeat -11px -570px;
+}
+.reg-head-left-text{
+	width:92px;
+	height:40px;
+	line-height: 40px;
+	font-size: 23px;
+	margin-top:20px;
+	border-left:2px #ccc solid;
+	padding-left:20px;
+	margin-left:10px;
+}
+.reg-main{
+	padding:50px 0;
+}
+
+.reg-main a{
+	padding:20px 0px 0px 30px;
+}
+.reg-main-form{
+	border:2px #ccc solid;
+	padding:20px 30px 0px 30px;
+}
+
+.reg-main-form-p{
+	font-size: 16px;
+	font-weight:900;
+	margin-bottom: 25px
+}
+form{
+	width:277px;
+}
+
+.reg-main-form p{
+	position: relative;
+	height:70px;
+}
+.reg-main-form p input{
+	height: 42px;
+	line-height: 42px;
+	border:1px #ddd solid;
+	text-indent: 10px;
+}
+
+.reg-main-form p span{
+	display: block;
+	height: 42px;
+	line-height: 42px;
+}
+
+.reg-main-form p:nth-of-type(1) input{
+	border-left:none;
+	width:175px;	
+}
+
+.reg-main-form p:nth-of-type(1) span{	
+	border:1px #ddd solid;
+	
+	width:94px;
+	text-align: center;
+	font-size:14px;
+	color:#666;
+}
+.reg-main-form p:nth-of-type(1) s{
+	display: block;
+	position: absolute;
+	width:18px;
+	height:18px;
+	background: url(../img/icons.jpg) no-repeat 0px -36px;
+	top:13px;
+	right:10px;
+}
+
+.reg-main-form p i{
+	display: block;
+	position: absolute;
+	color:#9a9a9a;
+	text-indent: 25px;
+	background: url(../img/icons.jpg) no-repeat 0px -18px;
+	top:42px;
+	height:18px;
+	line-height: 18px;
+	margin:5px 0px;
+}
+.reg-main-form p:nth-of-type(2) input,.reg-main-form p:nth-of-type(3) input,.reg-main-form p:nth-of-type(5) input{
+	width:277px;
+}
+.reg-main-form p:nth-of-type(4) input{
+	width:124px;
+	text-indent: 20px;
+}
+
+.reg-main-form p:nth-of-type(4) span{
+	width:85px;
+	margin:0px 10px;
+	text-align: center;
+	background: orange;
+	font-size: 24px;
+}
+
+.reg-main-form p:nth-of-type(4) strong{
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	cursor: pointer;
+	color: red;
+	font-size: 14px;
+}
+.reg-main-form p:nth-of-type(5) input{
+	background: red;
+	color:#fff;
+	font-size:18px;
+	font-weight: 900;
+}
+
+.reg-foot p{
+	text-align: center;
+	font-size: 12px;
+	
+}
+
+.reg-foot-img{
+	width:300px;
+	margin: 0 auto;
+	padding:20px;
+}
