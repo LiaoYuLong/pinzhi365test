@@ -123,6 +123,7 @@ form{
 	cursor: pointer;
 	color: red;
 	font-size: 14px;
+
 }
 .reg-main-form p:nth-of-type(5) input{
 	background: red;
