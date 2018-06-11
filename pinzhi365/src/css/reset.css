@@ -4,7 +4,7 @@ a{text-decoration:none;color:#000;}
 em,i{font-style:normal}
 b,strong{font-weight: 400}
 li{list-style:none}
-img{border:0;vertical-align:middle} 
+img{border:0;vertical-align:middle;} 
 .left{float:left}
 .right{float:right}
 .clear:after{content:"." ;clear:both;height:0;overflow:hidden;visibility:hidden;display:block}

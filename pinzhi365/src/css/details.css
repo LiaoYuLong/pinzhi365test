@@ -14,18 +14,18 @@
   font-size: 12px;
   margin-left: 5px; }
 
-.top-nav > li:nth-of-type(3) {
+.top-nav .boregistor {
   border-left: 1px #ccc solid;
   padding-left: 5px;
   padding-right: 15px; }
 
-.top-nav > li:nth-of-type(5) {
+.top-nav .jiantou {
   padding: 0 20px;
   background: url(../img/icons.png) no-repeat 70px -162px;
   cursor: pointer;
   position: relative; }
 
-.top-nav > li:nth-of-type(6) {
+.top-nav .xwimg {
   margin-left: 20px;
   width: 17px;
   height: 15px;
@@ -45,10 +45,10 @@
   width: 110px;
   text-align: center; }
 
-.top-nav > li:nth-of-type(5):hover {
+.top-nav .jiantou:hover {
   background: url(../img/icons.png) no-repeat 70px -216px; }
 
-.top-nav > li:nth-of-type(5):hover .top-nav-ul {
+.top-nav .jiantou:hover .top-nav-ul {
   display: block; }
 
 .top-nav-ul li a:hover {
@@ -94,6 +94,10 @@
   .nav li {
     float: left; }
 
+.nav-ul {
+  z-index: 1;
+  background: #fff; }
+
 .nav-ul > li {
   width: 210px;
   color: #000;
@@ -104,7 +108,7 @@
   text-indent: 50px;
   position: relative; }
 
-.nav-ul > li > a {
+.nav-ul > li > a, .poic li a {
   display: block;
   height: 35px;
   line-height: 35px;
@@ -135,31 +139,31 @@
   left: 10px;
   top: 14px; }
 
-.nav h2 ul li:nth-of-type(1) span {
+.nav h2 ul .icoone {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -482px; }
 
-.nav h2 ul li:nth-of-type(2) span {
+.nav h2 ul .icotwo {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -452px; }
 
-.nav h2 ul li:nth-of-type(3) span {
+.nav h2 ul .icothree {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -392px; }
 
-.nav h2 ul li:nth-of-type(4) span {
+.nav h2 ul .icofour {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -238px; }
 
-.nav h2 ul li:nth-of-type(5) span {
+.nav h2 ul .icofive {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -268px; }
 
-.nav h2 ul li:nth-of-type(6) span {
+.nav h2 ul .icosix {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -208px; }
 
-.nav h2 ul li:nth-of-type(7) span {
+.nav h2 ul .icoseven {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -336px; }
 
-.nav h2 ul li:nth-of-type(8) span {
+.nav h2 ul .icoeight {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -362px; }
 
-.nav h2 ul li:nth-of-type(9) span {
+.nav h2 ul .iconine {
   background: url(../img/icon_sitebar_2015.png) no-repeat 0px -183px; }
 
 .nav h2 ul li i {
@@ -171,11 +175,7 @@
   right: 10px;
   top: 14px; }
 
-.nav h2 > ul > li:hover {
-  background: #fed4d6;
-  color: red; }
-
-.poic > li:nth-of-type(4) > a {
+.poicimg a {
   background: url(../img/dzzx.gif) no-repeat;
   width: 85px; }
 
@@ -184,15 +184,47 @@
   height: 460px;
   border: 5px #fed4d6 solid;
   position: absolute;
-  top: 0px;
-  left: 210px; }
+  left: 210px;
+  display: none; }
+
+.boxone {
+  top: 0px; }
+
+.boxtwo {
+  top: -52px; }
+
+.boxthree {
+  top: -104px; }
+
+.boxfour {
+  top: -156px; }
+
+.boxfive {
+  top: -208px; }
+
+.boxsix {
+  top: -260px; }
+
+.boxseven {
+  top: -312px; }
+
+.boxeight {
+  top: -364px; }
+
+.boxnine {
+  top: -416px; }
 
 .nav-box-left {
   width: 750px;
   height: 460px;
   text-indent: 0px;
   padding: 0px 10px 0px 10px;
-  background: rgba(255, 255, 255, 0.5); }
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 2; }
+
+.navbox {
+  position: relative;
+  z-index: 3; }
 
 .navbox p {
   height: 40px;
@@ -206,10 +238,11 @@
 
 .navbox ul {
   padding: 8px 0px;
-  height: 18px;
-  line-height: 18px; }
+  width: 640px; }
 
 .navbox ul li {
+  height: 18px;
+  line-height: 18px;
   border-left: 1px #e0e0e0 solid;
   padding: 0px 10px;
   margin-bottom: 6px;
@@ -217,16 +250,28 @@
   .navbox ul li a {
     color: #676968; }
 
+.nav-box-right {
+  width: 220px;
+  height: 460px;
+  background: #fff;
+  padding-top: 5px; }
+
+.nav-box-right a {
+  display: block; }
+
+.nav-box-right a img {
+  display: block;
+  padding: 5px; }
+
+.nav h2 > ul > li:hover {
+  background: #fed4d6;
+  color: red; }
+
+.nav h2 > ul > li:hover .nav-box {
+  display: block; }
+
 .nav h2 ul {
   display: none; }
 
 .nav h2:hover ul {
   display: block; }
-
-.nav li:nth-of-type(4) a {
-  background: none;
-  width: 35px; }
-
-.nav li:nth-of-type(5) a {
-  background: url(../img/dzzx.gif) no-repeat;
-  width: 85px; }

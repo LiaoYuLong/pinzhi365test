@@ -13,7 +13,7 @@ img{
 .reg-head ul{
 	margin-top:30px;
 }
-.reg-head ul li:nth-of-type(2){
+.reg-head ul .icoimg{
 	width:20px;
 	height:20px;
 	background: url(../img/login_icons.jpg) no-repeat -11px -570px;
@@ -66,12 +66,12 @@ form{
 	line-height: 42px;
 }
 
-.reg-main-form p:nth-of-type(1) input{
+.reg-main-form .telname input{
 	border-left:none;
 	width:175px;	
 }
 
-.reg-main-form p:nth-of-type(1) span{	
+.reg-main-form .telname span{	
 	border:1px #ddd solid;
 	
 	width:94px;
@@ -79,7 +79,7 @@ form{
 	font-size:14px;
 	color:#666;
 }
-.reg-main-form p:nth-of-type(1) s{
+.reg-main-form .telname s{
 	display: block;
 	position: absolute;
 	width:18px;
@@ -100,15 +100,15 @@ form{
 	line-height: 18px;
 	margin:5px 0px;
 }
-.reg-main-form p:nth-of-type(2) input,.reg-main-form p:nth-of-type(3) input,.reg-main-form p:nth-of-type(5) input{
+.reg-main-form .passname input,.reg-main-form .repass input,.reg-main-form .submit input{
 	width:277px;
 }
-.reg-main-form p:nth-of-type(4) input{
+.reg-main-form .yanzhengname input{
 	width:124px;
 	text-indent: 20px;
 }
 
-.reg-main-form p:nth-of-type(4) span{
+.reg-main-form .yanzhengname span{
 	width:85px;
 	margin:0px 10px;
 	text-align: center;
@@ -116,7 +116,7 @@ form{
 	font-size: 24px;
 }
 
-.reg-main-form p:nth-of-type(4) strong{
+.reg-main-form .yanzhengname strong{
 	display: block;
 	height: 42px;
 	line-height: 42px;
@@ -125,7 +125,7 @@ form{
 	font-size: 14px;
 
 }
-.reg-main-form p:nth-of-type(5) input{
+.reg-main-form .submit input{
 	background: red;
 	color:#fff;
 	font-size:18px;
