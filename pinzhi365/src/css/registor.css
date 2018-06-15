@@ -79,8 +79,8 @@ form{
 	font-size:14px;
 	color:#666;
 }
-.reg-main-form .telname s{
-	display: block;
+.reg-main-form s{
+	display:none;
 	position: absolute;
 	width:18px;
 	height:18px;
@@ -90,7 +90,7 @@ form{
 }
 
 .reg-main-form p i{
-	display: block;
+	display:none;
 	position: absolute;
 	color:#9a9a9a;
 	text-indent: 25px;
